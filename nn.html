@@ -1,18 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titl
+    <title>Website Berita Sederhana</title>
+    <style>
+        /* CSS ditulis di dalam file HTML */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .berita-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .artikel {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .artikel h2 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .artikel p {
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+
+        .artikel .tanggal {
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Berita Terkini</h1>
+        <p>Selamat datang di portal berita sederhana kami!</p>
+    </header>
+
+    <main>
+        <div class="berita-container">
+            <!-- Artikel berita statis -->
+            <div class="artikel">
+                <h2>Berita Pertama</h2>
+                <p class="tanggal">10 November 2023</p>
+                <p>Ini adalah deskripsi singkat dari berita pertama yang sangat menarik. Topik ini sangat relevan dan penting untuk dibaca.</p>
+            </div>
+
+            <div class="artikel">
+                <h2>Berita Kedua</h2>
+                <p class="tanggal">9 November 2023</p>
+                <p>Berita kedua ini mengupas tuntas isu penting yang sedang hangat diperbincangkan di masyarakat. Pastikan Anda tidak ketinggalan berita ini.</p>
+            </div>
+
+            <div class="artikel">
+                <h2>Berita Ketiga</h2>
+                <p class="tanggal">8 November 2023</p>
+                <p>Berita ketiga ini menyoroti perkembangan terbaru dalam dunia teknologi. Baca selengkapnya untuk mengetahui informasi penting ini.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Portal Berita Sederhana</p>
+    </footer>
+</body>
+  </html>
+  
